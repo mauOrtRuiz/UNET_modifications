@@ -12,3 +12,9 @@ The network does not have fully connected layers and only uses convoilutional ne
 
 
 ![Unet1](https://user-images.githubusercontent.com/44585823/212410421-2416cec5-c912-4d80-a4dc-2e05cc2489a3.png)
+
+Some work have been presented with modifications to UNET.
+
+1.  UNET with residual connections.
+
+A residual block has been used and it has been demostrated its superiority [Reference Jasmin]
