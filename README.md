@@ -30,10 +30,13 @@ Some work have been dono  with modifications to UNET. In the next references we 
 
 
 
-2.  
+2.  RMS-UNET. This network is based in residual connections as well but it also includes added convolutions a different dilations, named Atrous convolution which is based in a 3x3 kernel convolution with different dilation rates. It was presented by [4]. In the next figure we can see dilation at rates of 1,2,4
 
 
+![Dilation_Atrous](https://user-images.githubusercontent.com/44585823/212441494-a82f6890-b4ea-42c9-ad64-2d841cb9345a.png)
 
+
+This opertion is used to increase the receptiove view of input images. 
 
 
 
@@ -42,3 +45,6 @@ Some work have been dono  with modifications to UNET. In the next references we 
 [2] He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep Residual Learning for Image Recognition. 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 770-778. https://doi.org/10.1109/CVPR.2016.90
 
 [3] Han, X. (2017). Automatic Liver Lesion Segmentation Using A Deep Convolutional Neural Network Method. ArXiv.Org. https://doi.org/10.1002/mp.12155
+
+[4] Khan, R. A., Luo, Y., & Wu, F.-X. (2022). RMS-UNet: Residual multi-scale UNet for liver and lesion segmentation. Artificial Intelligence in Medicine, 124, 102231. https://doi.org/10.1016/j.artmed.2021.102231
+
