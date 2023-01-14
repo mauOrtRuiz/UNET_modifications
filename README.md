@@ -36,7 +36,15 @@ Some work have been dono  with modifications to UNET. In the next references we 
 ![Dilation_Atrous](https://user-images.githubusercontent.com/44585823/212441494-a82f6890-b4ea-42c9-ad64-2d841cb9345a.png)
 
 
-This opertion is used to increase the receptiove view of input images. 
+This opertion is used to increase the receptiove view of input images.  The network presented by Khan combines Atrous convolutions as well as residual connections and also was utilised for liver lesion segmentation. It was tested on 4 public availabnle datasets:  Dircadb, LiTS, Sliver07, and Chaos datasets, that outperformed previous results. The network proposed is the following
+
+
+
+![RMS_UNET](https://user-images.githubusercontent.com/44585823/212442790-3eceee99-9e6e-41b1-bb58-e1feb01a630f.png)
+
+4.- MultiResUNet.  A more profound study of UNET behaviour was presented by [5]. In this study the semantic gap between encoder and decoder at each level is presented. They speculate that this gap is produced by the direct connection which is part of UNET. In this paper the direct connection is replaced by the proposed Residual Path
+![image](https://user-images.githubusercontent.com/44585823/212443264-81d12979-f096-4753-84a6-6b0e2c070ee2.png)
+
 
 
 
@@ -47,4 +55,7 @@ This opertion is used to increase the receptiove view of input images.
 [3] Han, X. (2017). Automatic Liver Lesion Segmentation Using A Deep Convolutional Neural Network Method. ArXiv.Org. https://doi.org/10.1002/mp.12155
 
 [4] Khan, R. A., Luo, Y., & Wu, F.-X. (2022). RMS-UNet: Residual multi-scale UNet for liver and lesion segmentation. Artificial Intelligence in Medicine, 124, 102231. https://doi.org/10.1016/j.artmed.2021.102231
+
+[5] Ibtehaz, N., & Rahman, M. S. (2020). MultiResUNet: Rethinking the U-Net architecture for multimodal biomedical image segmentation. Neural Networks, 121, 74-87. https://doi.org/10.1016/j.neunet.2019.08.025
+
 
