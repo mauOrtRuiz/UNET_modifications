@@ -42,11 +42,21 @@ This opertion is used to increase the receptiove view of input images.  The netw
 
 ![RMS_UNET](https://user-images.githubusercontent.com/44585823/212442790-3eceee99-9e6e-41b1-bb58-e1feb01a630f.png)
 
-4.- MultiResUNet.  A more profound study of UNET behaviour was presented by [5]. In this study the semantic gap between encoder and decoder at each level is presented. They speculate that this gap is produced by the direct connection which is part of UNET. In this paper the direct connection is replaced by the proposed Residual Path
+4.- MultiResUNet.  A more profound study of UNET behaviour was presented by [5]. In this study Ibtehaz speculate that there exists a semantic gap between encoder and decoder at each level between the direct connection, which is part of UNET. In  the direct connection is replaced by the proposed Residual Path
 ![image](https://user-images.githubusercontent.com/44585823/212443264-81d12979-f096-4753-84a6-6b0e2c070ee2.png).
 
-In this block convolutions in parallel of sizes 3x3, 5x5 and 7x7 are replaced by a series set of 3x3 filters. Then the proposed UNET
+They also replace inception  module, with convolutions in parallel of sizes 3x3, 5x5 and 7x7 are replaced by a series set of 3x3 filters. The MultiRes block also includes a Resual connection
+![image](https://user-images.githubusercontent.com/44585823/212484326-edd4d99a-9f5c-48c3-b094-879494862027.png)
+
+Then the proposed network is called  Multi Res UNET, which can be seen in the following diagram
 ![image](https://user-images.githubusercontent.com/44585823/212443436-5afcb07b-4b8e-4d3c-89a0-fd0858aaf45a.png)
+
+Multi Res UNET advantages presented by [5] are
+
+a) It can obtain better results in less number of epochs
+b) weak boundaries are better delineated
+c) Is more immune to perturbations
+d) MultiResUNet is more reliable against outliers
 
 
 
