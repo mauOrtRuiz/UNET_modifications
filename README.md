@@ -63,6 +63,16 @@ d) MultiResUNet is more reliable against outliers
 
 
 
+Modification analysis
+
+
+Batch size
+Modification | Baseline|A | B | C | D |E |F |
+--- | --- | --- | --- | --- |--- | --- |--- |
+Test | UNET 3 depth | 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+
+Test | UNET 3 depth | 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+
 
 [1] Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. En N. Navab, J. Hornegger, W. M. Wells, & A. F. Frangi (Eds.), Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234-241). Springer International Publishing. https://doi.org/10.1007/978-3-319-24574-4_28
 
