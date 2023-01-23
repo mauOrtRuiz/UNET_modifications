@@ -67,8 +67,8 @@ Modification analysis
 
 
 
-![image](https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png)
 
+<img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="80" height="60">
 
 
 Batch size
