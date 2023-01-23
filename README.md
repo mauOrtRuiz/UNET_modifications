@@ -55,7 +55,7 @@ Multi Res UNET advantages presented by [5] are
 
 a) It can obtain better results in less number of epochs
 b) weak boundaries are better delineated
-c) Is more immune to perturbations
+c) Is more immune to perturbations!
 d) MultiResUNet is more reliable against outliers
 
 
@@ -63,25 +63,30 @@ d) MultiResUNet is more reliable against outliers
 
 
 
-Modification analysis
+![1_Baseline_UNET_3depth_P2P](https://user-images.githubusercontent.com/44585823/214176752-3f90545f-741a-4e50-a98d-9ba14b48d3ee.png)
 
 
 
 
-
-
-
-Batch size
-Modification | Baseline|A | B | C | D |E |F |
+Segmentation results
+Original | Ground-Truth|A | B | C | D |E | F|
 --- | --- | --- | --- | --- |--- | --- |--- |
-Net | UNET 3 depth | 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
-Original| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+ | Type: |UNET 3 depth | UNET 3 depth |3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |
+ <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214166505-3c635ab5-84fd-4660-83a7-df9d839c7e72.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214175136-35ba6974-7d05-4155-9676-56776b09f358.png" width="90" height="70"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 Ground Truth| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 Original| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 Original| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 
 
 
+Segmentation results Pixel to pixel
+Original | A | B | C | D |E | F| G|
+--- | --- | --- | --- | --- |--- | --- |--- |
+ | Type: | UNET 3 depth |3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |
+ <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214176752-3f90545f-741a-4e50-a98d-9ba14b48d3ee.png" width="90" height="70">| free | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+Ground Truth| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+Original| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+Original| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 
 <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">
 
