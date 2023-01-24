@@ -60,11 +60,11 @@ d) MultiResUNet is more reliable against outliers
 
 
 
-![6_Baseline_UNET_3depth_P2P](https://user-images.githubusercontent.com/44585823/214192633-8a8f34cc-02f8-456c-abc0-a386c6b0f6b3.png)
-![6_Ground_Truth](https://user-images.githubusercontent.com/44585823/214192635-88de5fd9-7250-4b0a-a61c-b579ef64d289.png)
-![6_Original](https://user-images.githubusercontent.com/44585823/214192636-ae3e0c0e-a682-453b-82d7-3073cb6b7b53.png)
-![6_Baseline_UNET_3depth](https://user-images.githubusercontent.com/44585823/214192637-ef1ab476-160f-4341-876f-889c328dc881.png)
 
+![7_Baseline_UNET_3depth_P2P](https://user-images.githubusercontent.com/44585823/214194271-2a2acbd6-9df2-4ea5-98d0-dc0b04ad7e1e.png)
+![7_Ground_Truth](https://user-images.githubusercontent.com/44585823/214194273-1941cd91-6bcf-44a4-90db-32dd6fae9a47.png)
+![7_Original](https://user-images.githubusercontent.com/44585823/214194275-091fbf10-910e-478c-a7ac-2ca8787b2465.png)
+![7_Baseline_UNET_3depth](https://user-images.githubusercontent.com/44585823/214194276-00aa48d1-d39f-4017-a66c-5b6b55ac9d9d.png)
 
 
 
@@ -87,6 +87,10 @@ No |Original | Ground-Truth|A | B | C | D |E | F|
 5 | <img src="https://user-images.githubusercontent.com/44585823/214191679-da4d09c2-0247-455b-97fb-125c85a610d5.png" width="90" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214191677-cbd4889f-78d9-4b72-95d1-0e62fa3e46b5.png" width="90" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214191681-82776e2a-0386-4251-bcb1-55f9751ac919.png" width="90" height="90"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 6 | <img src="https://user-images.githubusercontent.com/44585823/214192636-ae3e0c0e-a682-453b-82d7-3073cb6b7b53.png" width="90" height="40">| <img src="https://user-images.githubusercontent.com/44585823/214192635-88de5fd9-7250-4b0a-a61c-b579ef64d289.png" width="90" height="40">| <img src="https://user-images.githubusercontent.com/44585823/214192637-ef1ab476-160f-4341-876f-889c328dc881.png" width="90" height="40"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 7 | <img src="" width="60" height="90">| <img src="" width="60" height="90">| <img src="" width="60" height="90"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+7 | <img src="" width="60" height="90">| <img src="" width="60" height="90">| <img src="" width="60" height="90"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+
+
+
 
 Segmentation results Pixel to pixel
 No | Original | A | B | C | D |E | F| G|
