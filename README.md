@@ -59,16 +59,6 @@ c) Is more immune to perturbations!
 d) MultiResUNet is more reliable against outliers
 
 
-![2_Baseline_UNET_3depth](https://user-images.githubusercontent.com/44585823/214184412-f656745c-fa4d-42a9-90cd-81c2b4e826de.png)
-
-
-
-
-
-
-
-
-
 
 
 Segmentation results
@@ -77,7 +67,7 @@ No |Original | Ground-Truth|A | B | C | D |E | F|
  |  | Type: |UNET 3 depth | UNET 3 depth |3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |
  1 | <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214166505-3c635ab5-84fd-4660-83a7-df9d839c7e72.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214175136-35ba6974-7d05-4155-9676-56776b09f358.png" width="90" height="70"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 2 | <img src="https://user-images.githubusercontent.com/44585823/214182562-ce938393-0e24-4cd0-8675-b21d53a34d84.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214183275-c1393987-ab02-42d6-80a4-03c917d24f70.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214184412-f656745c-fa4d-42a9-90cd-81c2b4e826de.png" width="90" height="70"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
-3 | Original| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+3 | <img src="https://user-images.githubusercontent.com/44585823/214186850-c928a042-2557-44e7-bd88-53bb1da6fd82.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214186890-88809b8f-c9ae-47eb-b226-3c6afd300179.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214186956-fb47fda8-fb34-4d78-b342-ae52c4d06ae6.png" width="90" height="70"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 4 | Original| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 
 
@@ -87,11 +77,11 @@ No | Original | A | B | C | D |E | F| G|
 --- | --- | --- | --- | --- |--- | --- |--- |--- |
   | | Type: | UNET 3 depth |3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |
  1 | <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214176752-3f90545f-741a-4e50-a98d-9ba14b48d3ee.png" width="90" height="70">| free | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
-2 | <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
-3 | Original| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+2 | <img src="https://user-images.githubusercontent.com/44585823/214182562-ce938393-0e24-4cd0-8675-b21d53a34d84.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214185506-007ae6f7-102d-4ea2-a1d0-ce609fea814e.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
+3 | <img src="https://user-images.githubusercontent.com/44585823/214186850-c928a042-2557-44e7-bd88-53bb1da6fd82.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214187052-8a11059e-a1e6-4027-a502-e7cb8f370aa7.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 4 | Original| <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">| 3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series| 
 
-<img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="70">
+
 
 [1] Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. En N. Navab, J. Hornegger, W. M. Wells, & A. F. Frangi (Eds.), Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234-241). Springer International Publishing. https://doi.org/10.1007/978-3-319-24574-4_28
 
