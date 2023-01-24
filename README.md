@@ -60,11 +60,10 @@ d) MultiResUNet is more reliable against outliers
 
 
 
-
-![14_Baseline_UNET_3depth_P2P](https://user-images.githubusercontent.com/44585823/214353770-01a182c3-5bd5-46a1-b77a-c37192effeb2.png)
-![14_Ground_Truth](https://user-images.githubusercontent.com/44585823/214353771-ff2a086f-20ef-42d0-a1a5-ed9edc8b08fc.png)
-![14_Original](https://user-images.githubusercontent.com/44585823/214353775-1eb4aed0-dfea-47bd-8aaa-5f7dfe31d135.png)
-![14_Baseline_UNET_3depth](https://user-images.githubusercontent.com/44585823/214353780-83debfb7-ac37-4b18-b4ae-b56bc08ccdb9.png)
+![15_Baseline_UNET_3depth_P2P](https://user-images.githubusercontent.com/44585823/214354877-c7685967-3873-4278-b132-bbc0edff24f5.png)
+![15_Ground_Truth](https://user-images.githubusercontent.com/44585823/214354880-81ab25c6-6141-400f-8bde-962bae302bea.png)
+![15_Original](https://user-images.githubusercontent.com/44585823/214354884-af304950-7100-438d-acab-c31892e1a358.png)
+![15_Baseline_UNET_3depth](https://user-images.githubusercontent.com/44585823/214354887-fd2b9300-c192-43fe-95df-9324fe11588c.png)
 
 
 
@@ -91,7 +90,7 @@ No |Original | Ground-Truth|A | B | C | D |E | F|
 12 | <img src="https://user-images.githubusercontent.com/44585823/214352075-282ddd09-e123-4ab4-bb98-8a253d528b36.png" width="90" height="30">| <img src="https://user-images.githubusercontent.com/44585823/214352070-07b303b2-70fc-4d7e-b919-788351bf1e0e.png" width="90" height="30">| <img src="https://user-images.githubusercontent.com/44585823/214352076-dd1c49c3-9900-4adc-a968-2a5aef513138.png" width="90" height="30"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series|
 13 | <img src="https://user-images.githubusercontent.com/44585823/214353016-308aa5ae-a81d-418b-b350-652204b5efb6.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214353013-d4591a35-aa8f-487e-ac75-b228a0abe77f.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214353018-3302134a-3fb7-48ab-8030-6538dbb6def0.png" width="90" height="70"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series|
 14 | <img src="https://user-images.githubusercontent.com/44585823/214353775-1eb4aed0-dfea-47bd-8aaa-5f7dfe31d135.png" width="55" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214353771-ff2a086f-20ef-42d0-a1a5-ed9edc8b08fc.png" width="55" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214353780-83debfb7-ac37-4b18-b4ae-b56bc08ccdb9.png" width="55" height="90"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series|
-9 | <img src="" width="60" height="90">| <img src="" width="90" height="90">| <img src="" width="40" height="90"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series|
+15 | <img src="https://user-images.githubusercontent.com/44585823/214354884-af304950-7100-438d-acab-c31892e1a358.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214354880-81ab25c6-6141-400f-8bde-962bae302bea.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214354887-fd2b9300-c192-43fe-95df-9324fe11588c.png" width="70" height="90"> | 5 extended ditations DPB| DPB-at each level | Residual UNET |Residual UNET | Atrous in series|
 
 
 
@@ -114,7 +113,7 @@ No | Original | A | B | C | D |E | F| G|
 12 |<img src="https://user-images.githubusercontent.com/44585823/214352075-282ddd09-e123-4ab4-bb98-8a253d528b36.png" width="90" height="30"> | <img src="https://user-images.githubusercontent.com/44585823/214352066-f227be59-2c02-4d3a-b735-9149289a7d1e.png" width="90" height="30">| a | Residual UNET |Residual UNET | Atrous in series| 
 13 |<img src="https://user-images.githubusercontent.com/44585823/214353016-308aa5ae-a81d-418b-b350-652204b5efb6.png" width="90" height="70"> |<img src="https://user-images.githubusercontent.com/44585823/214353008-ec4a80d6-5130-477e-a122-697d8e259b98.png" width="90" height="70"> | a | Residual UNET |Residual UNET | Atrous in series| 
 14 |<img src="https://user-images.githubusercontent.com/44585823/214353775-1eb4aed0-dfea-47bd-8aaa-5f7dfe31d135.png" width="55" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214353770-01a182c3-5bd5-46a1-b77a-c37192effeb2.png" width="55" height="90">| a | Residual UNET |Residual UNET | Atrous in series| 
-9 | | | a | Residual UNET |Residual UNET | Atrous in series| 
+15 |<img src="https://user-images.githubusercontent.com/44585823/214354884-af304950-7100-438d-acab-c31892e1a358.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214354877-c7685967-3873-4278-b132-bbc0edff24f5.png" width="70" height="90">| a | Residual UNET |Residual UNET | Atrous in series| 
 
 
 
