@@ -61,7 +61,6 @@ d) MultiResUNet is more reliable against outliers
 
 
 
-
 Segmentation results
 No |Original | Ground-Truth|A | B | C | D |E | F|
 --- | --- | --- | --- | --- |--- | --- |--- |--- |
