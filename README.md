@@ -60,16 +60,6 @@ d) MultiResUNet is more reliable against outliers
 
 
 
-![15_Baseline_UNET_3depth_P2P](https://user-images.githubusercontent.com/44585823/214354877-c7685967-3873-4278-b132-bbc0edff24f5.png)
-![15_Ground_Truth](https://user-images.githubusercontent.com/44585823/214354880-81ab25c6-6141-400f-8bde-962bae302bea.png)
-![15_Original](https://user-images.githubusercontent.com/44585823/214354884-af304950-7100-438d-acab-c31892e1a358.png)
-![15_Baseline_UNET_3depth](https://user-images.githubusercontent.com/44585823/214354887-fd2b9300-c192-43fe-95df-9324fe11588c.png)
-
-
-
-
-
-
 
 
 Segmentation results
