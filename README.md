@@ -63,6 +63,36 @@ d) MultiResUNet is more reliable against outliers
 
 
 
+![15_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990019-60859c16-607e-41a1-aa0c-73cbd56801c0.png)
+![15_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990022-5cca4b33-0bd8-4f14-9aa2-5ed6bd523c90.png)
+![1_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990025-a7dd4f73-1c02-46ae-a386-1d12de712de1.png)
+![1_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990028-9d51b222-ee37-413e-9b9a-ab86eb51037d.png)
+![2_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990029-dca8286c-343a-4aea-88c9-5ab3aeed0031.png)
+![2_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990032-e08cd1e8-1409-4606-8dc6-ac814dc76b01.png)
+![3_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990038-1f62924e-40c6-457a-b0d5-1cfa5082df2f.png)
+![3_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990042-17733bee-1703-47c8-905f-26e7a4955b42.png)
+![4_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990051-11ab47e8-0e0f-467b-a505-6afbe33877f4.png)
+![4_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990052-168fbd9c-46a6-4a32-878a-cec0e72f0224.png)
+![5_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990057-d943c875-b60a-44d4-b3e4-4400a9a2f911.png)
+![5_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990059-32e95847-c668-407f-8c37-00b4b6dcc2ed.png)
+![6_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990067-e442cad1-5c15-42db-a95d-6ebf2fd2348e.png)
+![6_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990068-d2f38c55-0fdf-4474-93f6-3eb951637076.png)
+![7_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990070-02cc68a1-30b0-4e51-bd10-e1a50da9ca7a.png)
+![7_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990073-be85a65c-42dd-4d1f-919e-948c2c8a68bb.png)
+![8_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990075-a6b11243-f474-4845-ba6a-660bbfd8022c.png)
+![8_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990076-5087cc91-cb72-4c37-a0fa-ef9ee187e97c.png)
+![9_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990079-879b094d-fc28-4fe6-9b4f-f34a3751a2c3.png)
+![9_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990081-9af94b4d-edff-42f3-a8d8-cbba26186b9e.png)
+![10_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990084-ca946c47-4c48-43c3-8479-56143b330c78.png)
+![10_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990086-e0bbcb90-3919-4964-b223-d6e4c9a6268f.png)
+![11_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990089-8a799af5-c853-4eba-866c-c40cd65c4ed5.png)
+![11_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990092-85e98eb4-21de-48be-974d-cd5f82c84345.png)
+![12_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990097-bb05f94f-5f28-4768-a9e4-581d013f2fe5.png)
+![12_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990099-44feb362-0441-44cf-85b5-a0528e6775a5.png)
+![13_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990101-2d833675-93c9-4ba7-842b-0d9c81b7521b.png)
+![13_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990104-4bf64339-97f5-4b5b-ab84-01f051f8c1b2.png)
+![14_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/214990106-0f339872-9068-4cfc-8b55-e18f4e96e129.png)
+![14_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/214990108-05a1b24f-568c-4c67-9397-cd25506dda01.png)
 
 
 
