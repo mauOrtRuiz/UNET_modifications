@@ -65,6 +65,74 @@ d) MultiResUNet is more reliable against outliers
 
 
 
+![15_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235902-f26277fd-3072-436e-b51d-af8b9fca0521.png)
+![1_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235904-6d409e0d-935e-4c3f-a44b-546b6724e2cb.png)
+![1_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235905-916c1c89-e959-4fdf-a252-46b7079e49be.png)
+![2_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235906-d9ed90a3-de0a-44f0-9352-2e9e2a1594fe.png)
+![2_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235907-7741c0cc-54ef-41f4-9a32-abc368acecea.png)
+![3_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235909-417df29f-866d-4b33-9bb3-e73c111941a6.png)
+![3_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235910-76d0ccdc-7ae2-4564-82a6-b9b395dcdf1a.png)
+![4_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235911-a0a9e934-485a-445b-8980-a7ea8ba661fa.png)
+![4_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235912-9be856f5-61d4-4553-abd2-e8a6ba7fe1bd.png)
+![5_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235913-d1ba97ba-83b0-4921-85cd-603401f3dfd0.png)
+![5_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235914-11b119ed-f4fd-4358-8829-a8ab4cff1a73.png)
+![6_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235915-690a6b2a-65dd-42a7-967e-70e8899319b0.png)
+![6_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235916-79e184ed-6495-4e63-8282-389a22ac30a2.png)
+![7_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235917-db54695e-7b83-4b21-adc2-01c8ac013e2f.png)
+![7_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235920-b0b1ca03-a7ef-4438-8629-43f35804c70e.png)
+![8_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235921-37b85f0c-0d6e-4345-8445-ec6408e111b4.png)
+![8_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235924-631b3a7d-01c7-4531-a705-4245e536c650.png)
+![9_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235925-6c01a654-e1c1-4cd1-95c5-9733ca1c52da.png)
+![9_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235926-bcf9eff5-33ef-482d-9378-172c74de2e80.png)
+![10_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235927-82f73256-7b41-4ae0-b9e4-9940bd65be61.png)
+![10_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235930-f4d70bf9-0a9f-4055-a0a2-7d806f013cd8.png)
+![11_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235931-e50667dd-4c21-482e-a211-63246cb79934.png)
+![11_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235932-5d1e1f99-71ac-409e-8ed9-352e1892d0d2.png)
+![12_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235933-1063e4f7-579b-4b1b-836f-9a9f7204586b.png)
+![12_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235934-a440ba3a-9b6b-438e-b8ca-ae40c2c05492.png)
+![13_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235935-0c23007b-1dfb-4b14-9272-a25c13841fd5.png)
+![13_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235936-ce8d2b4d-50dc-42a7-8977-e49865304e5a.png)
+![14_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235937-cff55c64-5658-41e1-9575-c3f31c047e51.png)
+![14_UNET_Atrous_series_3P2P](https://user-images.githubusercontent.com/44585823/215235938-77b7a106-e75e-4167-804d-7f943564a5c8.png)
+![15_UNET_Atrous_series_3](https://user-images.githubusercontent.com/44585823/215235939-8b496eb5-eb0c-4114-b901-c67794332c2a.png)
+
+
+
+
+![15_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235803-ad3d187f-abd9-4027-a347-620dbc84a4ab.png)
+![15_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235804-c409f603-0d36-4cad-b4fa-00ae9d711828.png)
+![1_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235805-7a3a910f-1bb7-4235-9aab-49341817746f.png)
+![1_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235806-b0dcb406-3814-4bbc-843d-d4b4718907ff.png)
+![2_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235808-82f3680a-7ce8-487a-a8e5-1afab9e3711c.png)
+![2_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235809-2a272176-e23f-4665-a900-371b868d6498.png)
+![3_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235810-eda4c36d-d66f-4e7b-afe9-a6b7b4ced9fd.png)
+![3_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235811-ab751b1b-9915-4bea-874a-943c2df0b1cc.png)
+![4_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235812-762e27f1-f635-4aff-bfa8-89aaa1604c5a.png)
+![4_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235813-90233233-620d-4f39-ba9e-df3d2e76867d.png)
+![5_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235815-636a7be6-2cce-4549-ba85-fc3887215ef0.png)
+![5_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235816-adda9755-3119-492a-82c5-15c2b89919dc.png)
+![6_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235818-b2d5725d-77ab-42c9-b697-ceb7d9da0d9e.png)
+![6_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235819-fecffdb0-3bf0-4437-b7f3-32c73569fcd8.png)
+![7_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235821-dc82f072-444c-414f-84e0-911cb9c9e59d.png)
+![7_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235822-fef1e29e-e7dd-44b5-b577-1345cc12367c.png)
+![8_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235823-98dda3a7-2d87-4fec-acfa-cba6719bdb70.png)
+![8_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235824-cf1fa5c2-cf6b-4407-b6e8-e1b821676e2d.png)
+![9_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235825-2325b84f-b286-4878-ab5d-d67068610aa8.png)
+![9_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235826-9caa377b-575e-4ac3-afa1-40739611587d.png)
+![10_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235827-d0c12f54-297f-41ab-97bb-34932c7f0260.png)
+![10_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235828-9daad9da-ea26-4c56-baec-da5348a2a7f1.png)
+![11_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235829-f2cd8287-4f76-49b3-a33f-30be5586d969.png)
+![11_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235831-2ba3ffbd-71a5-44bb-8516-8122367bdd16.png)
+![12_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235832-cc2c0918-06ac-4521-b68d-11163146f17e.png)
+![12_UNET_FullDilat](https://user-images.githubusercontent.com/44585823/215235833-04951b13-1674-4bf5-8720-36e0a7b87ca4.png)
+![13_UNET_5_FullDilate](https://user-images.githubusercontent.com/44585823/215235835-02f8466f-cc83-4fbe-babc-242ab6f815a3.png)
+![13_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235837-503adcd6-611a-4180-833a-55ae280e29ba.png)
+![14_UNET_5_FullDilate](https://user-images.githubusercontent.com/44585823/215235838-f4d2a99d-8d79-4c08-8b3a-15637eb73337.png)
+![14_UNET_5_FullDilateP2P](https://user-images.githubusercontent.com/44585823/215235839-1b321156-ed1b-4874-a236-49fb16d630be.png)
+
+
+
+
 
 Segmentation results
 No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |E | F|
@@ -85,14 +153,6 @@ No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at In
 13 | <img src="https://user-images.githubusercontent.com/44585823/214353016-308aa5ae-a81d-418b-b350-652204b5efb6.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214353013-d4591a35-aa8f-487e-ac75-b228a0abe77f.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214353018-3302134a-3fb7-48ab-8030-6538dbb6def0.png" width="90" height="70"> | <img src="https://user-images.githubusercontent.com/44585823/214617152-7bc7ff7c-90fe-4fc0-b328-7824c3c3d38d.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214729311-7003255c-1a40-43d5-a6db-55e948f76a19.png" width="90" height="70"> | <img src="https://user-images.githubusercontent.com/44585823/214990104-4bf64339-97f5-4b5b-ab84-01f051f8c1b2.png" width="90" height="70"> |Residual UNET | Atrous in series|
 14 | <img src="https://user-images.githubusercontent.com/44585823/214353775-1eb4aed0-dfea-47bd-8aaa-5f7dfe31d135.png" width="55" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214353771-ff2a086f-20ef-42d0-a1a5-ed9edc8b08fc.png" width="55" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214353780-83debfb7-ac37-4b18-b4ae-b56bc08ccdb9.png" width="55" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214617155-db941807-3f5c-4e98-889d-b58ffd561efa.png" width="55" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214729315-0471919f-2a9a-49d7-8b6f-14e2a3fd5dbd.png" width="55" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214990108-05a1b24f-568c-4c67-9397-cd25506dda01.png" width="55" height="90"> |Residual UNET | Atrous in series|
 15 | <img src="https://user-images.githubusercontent.com/44585823/214354884-af304950-7100-438d-acab-c31892e1a358.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214354880-81ab25c6-6141-400f-8bde-962bae302bea.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214354887-fd2b9300-c192-43fe-95df-9324fe11588c.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214617083-3d159c4d-7070-4c80-8ef4-c8a677a388c4.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214729264-d709db71-f41c-4c69-914a-b43fd177e2c3.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214990022-5cca4b33-0bd8-4f14-9aa2-5ed6bd523c90.png" width="70" height="90"> |Residual UNET | Atrous in series|
-
-
-
-
-
-
-
-
 
 
 
@@ -123,7 +183,7 @@ No | Original | A | B | C | D |E | F| G|
  |  |  |0.8499|  |  | | | |
 9 |<img src="https://user-images.githubusercontent.com/44585823/214347796-17c6d210-54a0-4954-99e5-62a64ee2d2fa.png" width="90" height="35"> |<img src="https://user-images.githubusercontent.com/44585823/214347787-1ce4b760-aa0f-40a3-991b-06491c4fe664.png" width="90" height="35"> | <img src="https://user-images.githubusercontent.com/44585823/214617131-00f26598-5374-48fc-b39a-c897e7451e66.png" width="90" height="35"> | <img src="https://user-images.githubusercontent.com/44585823/214729294-7b508ab1-d7ce-4639-93f3-079ed204683d.png" width="90" height="35"> |<img src="https://user-images.githubusercontent.com/44585823/214990079-879b094d-fc28-4fe6-9b4f-f34a3751a2c3.png" width="90" height="35"> | Atrous in series| 
  |  |  |0.8499|  |  | | | |
-10 |<img src="https://user-images.githubusercontent.com/44585823/214348696-34c3fc9a-1d46-414d-bdc9-8813911fc966.png" width="90" height="75"> |<img src="https://user-images.githubusercontent.com/44585823/214348685-343446c8-811e-4671-85a9-d47049e4c4f8.png" width="90" height="75"> | <img src="https://user-images.githubusercontent.com/44585823/214617137-9b7d6f72-34b7-41a8-a8e2-553ed0cdf838.png" width="90" height="75"> | <img src="https://user-images.githubusercontent.com/44585823/214729297-1f8f7c4d-8038-440c-b75b-3452e6c27b56.png" width="90" height="75">  |<img src="https://user-images.githubusercontent.com/44585823/214990079-879b094d-fc28-4fe6-9b4f-f34a3751a2c3.png" width="90" height="75">| Atrous in series| 
+10 |<img src="https://user-images.githubusercontent.com/44585823/214348696-34c3fc9a-1d46-414d-bdc9-8813911fc966.png" width="90" height="75"> |<img src="https://user-images.githubusercontent.com/44585823/214348685-343446c8-811e-4671-85a9-d47049e4c4f8.png" width="90" height="75"> | <img src="https://user-images.githubusercontent.com/44585823/214617137-9b7d6f72-34b7-41a8-a8e2-553ed0cdf838.png" width="90" height="75"> | <img src="https://user-images.githubusercontent.com/44585823/214729297-1f8f7c4d-8038-440c-b75b-3452e6c27b56.png" width="90" height="75">  |<img src="https://user-images.githubusercontent.com/44585823/215235579-a46aff07-f52d-4ff4-b078-0112397b30e4.png" width="90" height="75">| Atrous in series| 
  |  |  |0.8499|  |  | | | |
 11 |<img src="https://user-images.githubusercontent.com/44585823/214349786-52fa504b-70aa-4d54-a576-db3408ccb66d.png" width="90" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214349779-facba38f-387b-4500-88c0-a765663b80dd.png" width="90" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214617140-20eb214a-f156-4d3f-a4ea-86fcdf4b9a7d.png" width="90" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214729299-b07fd279-947e-4aa2-9843-e3135d39927d.png" width="90" height="90"> |<img src="https://user-images.githubusercontent.com/44585823/214990089-8a799af5-c853-4eba-866c-c40cd65c4ed5.png" width="90" height="90"> | Atrous in series| 
  |  |  |0.8499|  |  | | | |
