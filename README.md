@@ -1,4 +1,4 @@
-# UNET_modifications
+# Modified UNET
 In this research experiment, we explore different UNET architectures
 
 The main goal of this experiment is to propose a modified UNET that might improve segmentation for multiclass breast cancer segmentation. We use images from the Breast Cancer Semantic Segmentation (BCSS) https://bcsegmentation.grand-challenge.org/
@@ -58,6 +58,40 @@ b) weak boundaries are better delineated
 c) Is more immune to perturbations!
 d) MultiResUNet is more reliable against outliers
 
+
+
+
+
+![15_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907587-908ce960-4b7d-4b4a-8b22-4bb77ee80885.png)
+![1_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907588-da76f074-e1c9-43d5-9b84-20461e726117.png)
+![1_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907590-629a43f2-7e37-4b71-af49-17604df7d6c7.png)
+![2_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907591-8921849e-8aa0-4828-8455-8a3c2546fefe.png)
+![2_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907593-c4909b68-c05a-4dce-956f-c6aead358a8e.png)
+![3_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907595-3a389efb-5405-4bf0-a72f-3c9ce69592bf.png)
+![3_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907596-d08e7424-d482-4664-8211-2cb273964cef.png)
+![4_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907597-68abbf86-15b8-4210-a0e7-1214f716ba1f.png)
+![4_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907599-c799de51-3d75-429d-9c86-4f9a7459fdaf.png)
+![5_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907600-567bab1b-a9a1-4903-b42d-360a4ff8cd46.png)
+![5_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907603-76865cf8-b8f6-41c5-8e2d-c366f6ac26d8.png)
+![6_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907605-ec8975a0-ef53-48b6-b05d-e0b0961ce12c.png)
+![6_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907606-0b9dd051-2b6b-4c87-a97a-2278d54b7f7e.png)
+![7_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907607-6100b241-669c-4dae-81bf-09f716adbf2f.png)
+![7_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907610-a21b5a95-1ef4-4332-929c-7aa6ded26fa4.png)
+![8_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907612-f5363f45-931a-4adc-9333-aeda8316dd98.png)
+![8_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907613-104594fc-3c15-4b8b-8edb-3c2bcaee7bae.png)
+![9_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907614-148a8d94-b6cc-479e-9983-05935139fe43.png)
+![9_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907615-166918eb-3516-424b-a576-50218f76f4a5.png)
+![10_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907616-6f1f420f-fdd0-4051-96b3-47b8bd215c69.png)
+![10_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907618-a7c1bd0c-c9fa-47e4-b341-12a5387b1ccd.png)
+![11_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907619-843b6773-8d68-4166-8e6b-666ad3ce9705.png)
+![11_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907621-c0aab19b-c9a5-4ae9-a3f6-4ca083bb6078.png)
+![12_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907622-1a7fdcf1-8385-4652-8ef7-a0a7559a3319.png)
+![12_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907624-f3e9948c-0c85-4eed-a272-bbc983909d1b.png)
+![13_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907625-582bc0b3-9d30-42fd-aaf4-e601e85a2c62.png)
+![13_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907626-084c4bb9-5144-445c-b73d-7da57ac7f431.png)
+![14_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907629-65b1d6ac-ddad-44ee-ae3e-74281cd69089.png)
+![14_UNET_AtrousRes_P2P](https://user-images.githubusercontent.com/44585823/215907630-e1cddb04-f935-40bb-ba3a-f2b7f9025888.png)
+![15_UNET_AtrousRes](https://user-images.githubusercontent.com/44585823/215907631-f6cd86ce-88d5-4d30-995a-ba25590313f9.png)
 
 
 
