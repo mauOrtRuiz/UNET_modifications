@@ -196,9 +196,9 @@ No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at In
 
 
 Segmentation results Pixel to pixel
-No | Original | A | B | C | D |E | F| G|
+No |Original |UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level | D |E | F|
 --- | --- | --- | --- | --- |--- | --- |--- |--- |
-  | | Type: | UNET 3 depth |3 input dilations DPB | 5 extended ditations DPB| DPB-at each level | Residual UNET |
+  | |   |  |  |  |  |  |
  1 | <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/214176752-3f90545f-741a-4e50-a98d-9ba14b48d3ee.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/214448153-9db175c6-d627-4c49-a8b1-40a0264d378d.png" width="90" height="60"> | <img src="https://user-images.githubusercontent.com/44585823/214729268-ee78fcc3-1904-4daf-b50e-1415505c6617.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/214990025-a7dd4f73-1c02-46ae-a386-1d12de712de1.png" width="90" height="60">| Residual UNET |Residual UNET | Atrous in series| 
   |  |  |0.8499|0.8443|0.8456|0.8441| | |
 2 | <img src="https://user-images.githubusercontent.com/44585823/214182562-ce938393-0e24-4cd0-8675-b21d53a34d84.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214185506-007ae6f7-102d-4ea2-a1d0-ce609fea814e.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214450300-28eaddf4-75b0-4343-a58e-d10912ddac9d.png" width="90" height="70"> | <img src="https://user-images.githubusercontent.com/44585823/214729271-fa194804-6960-4e3b-b552-d6a25b71ddbe.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214990029-dca8286c-343a-4aea-88c9-5ab3aeed0031.png" width="90" height="70"> | Residual UNET |Residual UNET | Atrous in series| 
