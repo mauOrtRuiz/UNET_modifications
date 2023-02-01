@@ -168,6 +168,47 @@ d) MultiResUNet is more reliable against outliers
 
 
 
+
+
+
+
+
+![2_UNET_FResi](https://user-images.githubusercontent.com/44585823/216124967-6e03b03a-d3ea-4001-85bd-a562836f43b4.png)
+![2_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216124973-2db27a96-aa74-4a64-b062-e028bd349aa9.png)
+![3_UNET_FResi](https://user-images.githubusercontent.com/44585823/216124974-c1370ada-f63a-4030-b7b0-1b0b60554150.png)
+![3_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216124976-de3367ec-a821-43ca-9a33-8c142b1b839d.png)
+![4_UNET_FResi](https://user-images.githubusercontent.com/44585823/216124979-444d2252-49de-4649-8906-7df9b3d0e8de.png)
+![4_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216124982-559e3820-946c-495a-a688-ab29bb0eed7f.png)
+![5_UNET_FResi](https://user-images.githubusercontent.com/44585823/216124985-4622ca78-bb98-4093-b9fa-71a1d1bed2b7.png)
+![5_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216124986-b8975ca2-9be6-4946-ab82-789e57848981.png)
+![6_UNET_FResi](https://user-images.githubusercontent.com/44585823/216124988-f33de0a9-c10c-4e2a-9852-1eb302adedf3.png)
+![6_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216124992-119d29fe-c00c-4061-b05b-7f61097027dc.png)
+![7_UNET_FResi](https://user-images.githubusercontent.com/44585823/216124993-b3d4da59-bd79-4a9f-9314-72ff6222a00a.png)
+![7_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216124995-4fae9a0c-dc48-4e28-9705-95157bb7ba5f.png)
+![8_UNET_FResi](https://user-images.githubusercontent.com/44585823/216124996-fc4d41b6-3af4-46ac-853b-7b44c3ee2c13.png)
+![8_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216124997-ec011600-8b85-42f0-b083-7ba1d4fd1abc.png)
+![9_UNET_FResi](https://user-images.githubusercontent.com/44585823/216124999-21e225e9-b583-42ef-ab72-817be41d19d4.png)
+![9_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216125001-ee37399a-5cbf-499f-966b-02060203f4a1.png)
+![10_UNET_FResi](https://user-images.githubusercontent.com/44585823/216125003-5f5cd764-1f84-45d9-9d6d-94de56cd9f41.png)
+![10_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216125005-3460fb71-11e4-47ee-b23e-2a143915fd85.png)
+![11_UNET_FResi](https://user-images.githubusercontent.com/44585823/216125008-86437e45-0c8f-4522-8698-52aacec1e0d0.png)
+![11_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216125010-be49d207-c719-4754-a9dc-7b5fcdcfe323.png)
+![12_UNET_FResi](https://user-images.githubusercontent.com/44585823/216125012-69f25b35-4e8a-4927-8a60-f4089c3014c1.png)
+![12_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216125014-302a9dc8-bce8-435b-98fa-762493dd03b8.png)
+![13_UNET_FResi](https://user-images.githubusercontent.com/44585823/216125016-b52339a0-f1d1-431f-84c5-fbd280f65ae2.png)
+![13_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216125018-31d40e34-e1ee-4999-8368-afc100ee7fd8.png)
+![14_UNET_FResi](https://user-images.githubusercontent.com/44585823/216125020-e7aae149-c448-4324-a417-8bb0eab95a8c.png)
+![14_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216125026-dae4d9c6-2db8-4b53-8387-24a34ca3e8be.png)
+![15_UNET_FResi](https://user-images.githubusercontent.com/44585823/216125027-a802ce8f-4d3c-4d8b-aa87-cc31739a58a3.png)
+![15_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216125028-ccf7230d-1394-4f1c-aca8-209d86d67d27.png)
+![1_UNET_FResi](https://user-images.githubusercontent.com/44585823/216125030-bbf8260d-2bf8-471b-af1f-8a430747b8a6.png)
+![1_UNET_FResiP2P](https://user-images.githubusercontent.com/44585823/216125034-c0eafd25-8ac9-4329-bb2e-a7d144e45733.png)
+
+
+
+
+
+
 Segmentation results
 No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |E | F|
 --- | --- | --- | --- | --- |--- | --- |--- |--- |
