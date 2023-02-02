@@ -3,7 +3,7 @@ In this research experiment, we explore different UNET architectures
 
 The main goal of this experiment is to propose a modified UNET that might improve segmentation for multiclass breast cancer segmentation. We use images from the Breast Cancer Semantic Segmentation (BCSS) https://bcsegmentation.grand-challenge.org/
 
-Previous work
+##Previous work
 
 UNET network is an optimal network for image semantic semgmentation presented by Ronnenberg in 2015. Is a network of deconvolutional type DNN in which the input image follows a set of encoder blocks followed by a decoder blocks.
 The novelty of this type of network, is that it includes feature channels at the upsamping blocks that consist of direct connections at higher resoilution layers which makes the expansive path symmetric to the contracting path, which makes it with a U-type shape.
@@ -60,24 +60,9 @@ d) MultiResUNet is more reliable against outliers
 
 
 
+## Experimentation
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Modifications to UNET are being explored, step by step to carefuly analize UNET and make a significant improvement. Each column of the following table corresponds to a single modification to UNET. 
 
 
 Segmentation results
@@ -101,11 +86,13 @@ No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at In
 15 | <img src="https://user-images.githubusercontent.com/44585823/214354884-af304950-7100-438d-acab-c31892e1a358.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214354880-81ab25c6-6141-400f-8bde-962bae302bea.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214354887-fd2b9300-c192-43fe-95df-9324fe11588c.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214617083-3d159c4d-7070-4c80-8ef4-c8a677a388c4.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214729264-d709db71-f41c-4c69-914a-b43fd177e2c3.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214990022-5cca4b33-0bd8-4f14-9aa2-5ed6bd523c90.png" width="70" height="90"> |<img src="https://user-images.githubusercontent.com/44585823/216125027-a802ce8f-4d3c-4d8b-aa87-cc31739a58a3.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/215235939-8b496eb5-eb0c-4114-b901-c67794332c2a.png" width="70" height="90">|<img src="https://user-images.githubusercontent.com/44585823/215907631-f6cd86ce-88d5-4d30-995a-ba25590313f9.png" width="70" height="90">| G|
 
 
+## Preliminar conclusions
 
+Confusion matrix for every single WSI was determined:
 
+[Statistics.xlsx](https://github.com/mauOrtRuiz/UNET_modifications/files/10565784/Statistics.xlsx)
 
-
-
+and after a inspections of results 
 
 
 
@@ -156,7 +143,13 @@ No |Original |UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at
 15 |<img src="https://user-images.githubusercontent.com/44585823/214354884-af304950-7100-438d-acab-c31892e1a358.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214354877-c7685967-3873-4278-b132-bbc0edff24f5.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214617088-9fb5dc0c-1ea6-464f-8cb3-8f7739e05e4b.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214729266-a301ccbb-bbb8-474e-833a-49d452e21028.png" width="70" height="90"> |<img src="https://user-images.githubusercontent.com/44585823/214990019-60859c16-607e-41a1-aa0c-73cbd56801c0.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/216125028-ccf7230d-1394-4f1c-aca8-209d86d67d27.png" width="70" height="90">|<img src="https://user-images.githubusercontent.com/44585823/215235902-f26277fd-3072-436e-b51d-af8b9fca0521.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/215907587-908ce960-4b7d-4b4a-8b22-4bb77ee80885.png" width="70" height="90">| 
  |  |  |0.8281|0.8378|0.8064|0.8304|0.8012 |0.7957 | 0.8202| F|
 
+## Preliminar conclusions
 
+Confusion matrix for every single WSI was determined:
+
+[Statistics.xlsx](https://github.com/mauOrtRuiz/UNET_modifications/files/10565784/Statistics.xlsx)
+
+and after a inspections of results 
 
 
 [1] Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. En N. Navab, J. Hornegger, W. M. Wells, & A. F. Frangi (Eds.), Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234-241). Springer International Publishing. https://doi.org/10.1007/978-3-319-24574-4_28
