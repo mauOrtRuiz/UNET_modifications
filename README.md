@@ -3,7 +3,7 @@ In this research experiment, we explore different UNET architectures
 
 The main goal of this experiment is to propose a modified UNET that might improve segmentation for multiclass breast cancer segmentation. We use images from the Breast Cancer Semantic Segmentation (BCSS) https://bcsegmentation.grand-challenge.org/
 
-##Previous work
+## Previous work
 
 UNET network is an optimal network for image semantic semgmentation presented by Ronnenberg in 2015. Is a network of deconvolutional type DNN in which the input image follows a set of encoder blocks followed by a decoder blocks.
 The novelty of this type of network, is that it includes feature channels at the upsamping blocks that consist of direct connections at higher resoilution layers which makes the expansive path symmetric to the contracting path, which makes it with a U-type shape.
@@ -92,8 +92,11 @@ Confusion matrix for every single WSI was determined:
 
 [Statistics.xlsx](https://github.com/mauOrtRuiz/UNET_modifications/files/10565784/Statistics.xlsx)
 
-and after a inspections of results 
+ 15 WSI images were used for validation, accuracy for each class was studied, 64 total parameters. Behaviour of the 64 parameters are analysed: Accuracy improvement, Acciracy reduction and reduction over 10 percent is highlighted 
 
+UNET DPB-3 at Input  improves on 55% of all parameters, and reduces an 45%, 4.6% reduction over 10 percentual points 
+UNET DPB-5 at Input  improves on 64% of all parameters, and reduces an 36%, 4.6% reduction over 10 percentual points
+Although in general DPB-5 improves, two particular images are of interest, image 2, stroma is misclasified as necrosis in a big area. In image 13 almost all the different networks also missclasify 
 
 
 
@@ -149,7 +152,9 @@ Confusion matrix for every single WSI was determined:
 
 [Statistics.xlsx](https://github.com/mauOrtRuiz/UNET_modifications/files/10565784/Statistics.xlsx)
 
-and after a inspections of results 
+15 WSI images were selected for validation. Five classes are analysed: Other, Tumor, Stroma, Inflammatory and Necrosis. Then around behaviour of 64 parameters were compared. Following conclusions
+
+UNET DPB-3 at Input improves
 
 
 [1] Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. En N. Navab, J. Hornegger, W. M. Wells, & A. F. Frangi (Eds.), Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234-241). Springer International Publishing. https://doi.org/10.1007/978-3-319-24574-4_28
