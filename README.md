@@ -66,9 +66,9 @@ Modifications to UNET are being explored, step by step to carefuly analize UNET 
 
 
 Segmentation results
-No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Input | Series Dilation Input|RMS-UNET |G| 
+No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Input | Series Dilation Input|SD+Residual-UNET |G| 
 --- | --- | --- | --- | --- |--- | --- |--- |--- |--- |--- |
-No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Input | Series Dilation Input|RMS-UNET |G| 
+No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Input | Series Dilation Input|SD+Residual-UNET |G| 
  1 | <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/214166505-3c635ab5-84fd-4660-83a7-df9d839c7e72.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/214175136-35ba6974-7d05-4155-9676-56776b09f358.png" width="90" height="60"> | <img src="https://user-images.githubusercontent.com/44585823/214448151-07530146-d408-4846-8574-82c659ef20aa.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/214729267-dfea7063-9056-40f6-a47e-160c401c5c3c.png" width="90" height="60"> | <img src="https://user-images.githubusercontent.com/44585823/214990028-9d51b222-ee37-413e-9b9a-ab86eb51037d.png" width="90" height="60"> |<img src="https://user-images.githubusercontent.com/44585823/216125030-bbf8260d-2bf8-471b-af1f-8a430747b8a6.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/215235904-6d409e0d-935e-4c3f-a44b-546b6724e2cb.png" width="90" height="60">|<img src="https://user-images.githubusercontent.com/44585823/215907588-da76f074-e1c9-43d5-9b84-20461e726117.png" width="90" height="60">|G|  
 2 | <img src="https://user-images.githubusercontent.com/44585823/214182562-ce938393-0e24-4cd0-8675-b21d53a34d84.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214183275-c1393987-ab02-42d6-80a4-03c917d24f70.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214184412-f656745c-fa4d-42a9-90cd-81c2b4e826de.png" width="90" height="70"> | <img src="https://user-images.githubusercontent.com/44585823/214450294-85583997-0047-46ba-9e95-0900300a8039.png" width="90" height="70">| <img src="https://user-images.githubusercontent.com/44585823/214729270-9e53bf61-0248-4068-b41e-a80c98904ad3.png" width="90" height="70"> |<img src="https://user-images.githubusercontent.com/44585823/214990032-e08cd1e8-1409-4606-8dc6-ac814dc76b01.png" width="90" height="70"> |<img src="https://user-images.githubusercontent.com/44585823/216124967-6e03b03a-d3ea-4001-85bd-a562836f43b4.png" width="90" height="70"> | <img src="https://user-images.githubusercontent.com/44585823/215235906-d9ed90a3-de0a-44f0-9352-2e9e2a1594fe.png" width="90" height="70">|<img src="https://user-images.githubusercontent.com/44585823/215907591-8921849e-8aa0-4828-8455-8a3c2546fefe.png" width="90" height="70">|G|  
 3 | <img src="https://user-images.githubusercontent.com/44585823/214186850-c928a042-2557-44e7-bd88-53bb1da6fd82.png" width="90" height="50">| <img src="https://user-images.githubusercontent.com/44585823/214186890-88809b8f-c9ae-47eb-b226-3c6afd300179.png" width="90" height="50">| <img src="https://user-images.githubusercontent.com/44585823/214186956-fb47fda8-fb34-4d78-b342-ae52c4d06ae6.png" width="90" height="50"> | <img src="https://user-images.githubusercontent.com/44585823/214617089-4299237d-191c-4df4-8bd2-26bb467d2e59.png" width="90" height="50">| <img src="https://user-images.githubusercontent.com/44585823/214729274-012402fc-fbad-4430-a5ab-a734686618d6.png" width="90" height="50"> | <img src="https://user-images.githubusercontent.com/44585823/214990042-17733bee-1703-47c8-905f-26e7a4955b42.png" width="90" height="50"> |<img src="https://user-images.githubusercontent.com/44585823/216124974-c1370ada-f63a-4030-b7b0-1b0b60554150.png" width="90" height="50"> | <img src="https://user-images.githubusercontent.com/44585823/215235909-417df29f-866d-4b33-9bb3-e73c111941a6.png" width="90" height="50">|<img src="https://user-images.githubusercontent.com/44585823/215907595-3a389efb-5405-4bf0-a72f-3c9ce69592bf.png" width="90" height="50">| G|  
@@ -86,33 +86,8 @@ No |Original | Ground-Truth|UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at In
 15 | <img src="https://user-images.githubusercontent.com/44585823/214354884-af304950-7100-438d-acab-c31892e1a358.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214354880-81ab25c6-6141-400f-8bde-962bae302bea.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214354887-fd2b9300-c192-43fe-95df-9324fe11588c.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214617083-3d159c4d-7070-4c80-8ef4-c8a677a388c4.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214729264-d709db71-f41c-4c69-914a-b43fd177e2c3.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214990022-5cca4b33-0bd8-4f14-9aa2-5ed6bd523c90.png" width="70" height="90"> |<img src="https://user-images.githubusercontent.com/44585823/216125027-a802ce8f-4d3c-4d8b-aa87-cc31739a58a3.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/215235939-8b496eb5-eb0c-4114-b901-c67794332c2a.png" width="70" height="90">|<img src="https://user-images.githubusercontent.com/44585823/215907631-f6cd86ce-88d5-4d30-995a-ba25590313f9.png" width="70" height="90">| G|
 
 
-## Preliminar conclusions
-
-Confusion matrix for every single WSI was determined:
-
-[Statistics.xlsx](https://github.com/mauOrtRuiz/UNET_modifications/files/10565784/Statistics.xlsx)
-
- 15 WSI images were used for validation, accuracy for each class was studied, 64 total parameters. Behaviour of the 64 parameters are analysed: Accuracy improvement, Acciracy reduction and reduction over 10 percent is highlighted 
-
-UNET DPB-3 at Input  improves on 55% of all parameters, and reduces an 45%, 4.6% reduction over 10 percentual points 
-UNET DPB-5 at Input  improves on 64% of all parameters, and reduces an 36%, 4.6% reduction over 10 percentual points
-Although in general DPB-5 improves, two particular images are of interest, image 2, stroma is misclasified as necrosis in a big area. In image 13 almost all the different networks also missclasify 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Segmentation results Pixel to pixel
-No |Original |UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level | Residual at Input |Series Dilation Input | RMS-UNET| F| F|
+No |Original |UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level | Residual at Input |Series Dilation Input | SD+Residual-UNET| F| F|
 --- | --- | --- | --- | --- |--- | --- |--- |--- |--- |--- |
   | |   |  |  |  |  |  | | |
  1 | <img src="https://user-images.githubusercontent.com/44585823/214163041-30211124-8400-4ca7-9e5e-5740876aa8c1.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/214176752-3f90545f-741a-4e50-a98d-9ba14b48d3ee.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/214448153-9db175c6-d627-4c49-a8b1-40a0264d378d.png" width="90" height="60"> | <img src="https://user-images.githubusercontent.com/44585823/214729268-ee78fcc3-1904-4daf-b50e-1415505c6617.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/214990025-a7dd4f73-1c02-46ae-a386-1d12de712de1.png" width="90" height="60">| <img src="https://user-images.githubusercontent.com/44585823/216125034-c0eafd25-8ac9-4329-bb2e-a7d144e45733.png" width="90" height="60"> |<img src="https://user-images.githubusercontent.com/44585823/215235905-916c1c89-e959-4fdf-a252-46b7079e49be.png" width="90" height="60"> | <img src="https://user-images.githubusercontent.com/44585823/215907590-629a43f2-7e37-4b71-af49-17604df7d6c7.png" width="90" height="60">| 
@@ -146,16 +121,32 @@ No |Original |UNET Depth-3 | UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at
 15 |<img src="https://user-images.githubusercontent.com/44585823/214354884-af304950-7100-438d-acab-c31892e1a358.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214354877-c7685967-3873-4278-b132-bbc0edff24f5.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/214617088-9fb5dc0c-1ea6-464f-8cb3-8f7739e05e4b.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/214729266-a301ccbb-bbb8-474e-833a-49d452e21028.png" width="70" height="90"> |<img src="https://user-images.githubusercontent.com/44585823/214990019-60859c16-607e-41a1-aa0c-73cbd56801c0.png" width="70" height="90"> | <img src="https://user-images.githubusercontent.com/44585823/216125028-ccf7230d-1394-4f1c-aca8-209d86d67d27.png" width="70" height="90">|<img src="https://user-images.githubusercontent.com/44585823/215235902-f26277fd-3072-436e-b51d-af8b9fca0521.png" width="70" height="90">| <img src="https://user-images.githubusercontent.com/44585823/215907587-908ce960-4b7d-4b4a-8b22-4bb77ee80885.png" width="70" height="90">| 
  |  |  |0.8281|0.8378|0.8064|0.8304|0.8012 |0.7957 | 0.8202| F|
 
+
+
+15 WSI images were selected for validation. Five classes are analysed: Other, Tumor, Stroma, Inflammatory and Necrosis. Then the behaviour of 64 parameters were compared. Following conclusions
+
 ## Preliminar conclusions
 
 Confusion matrix for every single WSI was determined:
 
 [Statistics.xlsx](https://github.com/mauOrtRuiz/UNET_modifications/files/10565784/Statistics.xlsx)
 
-15 WSI images were selected for validation. Five classes are analysed: Other, Tumor, Stroma, Inflammatory and Necrosis. Then around behaviour of 64 parameters were compared. Following conclusions
+ 15 WSI images were used for validation, accuracy for each class was studied, 64 total parameters. Behaviour of the 64 parameters are analysed: Accuracy improvement, Acciracy reduction and reduction over 10 percent is highlighted 
 
-UNET DPB-3 at Input improves
+UNET DPB-3 at Input  improves on 55% of all parameters, and reduces an 45%, 4.6% reduction over 10 percentual points 
+UNET DPB-5 at Input  improves on 64% of all parameters, and reduces an 36%, 4.6% reduction over 10 percentual points
+Although in general DPB-5 improves, two particular images are of interest, image 2, a big stroma region is misclasified as necrosis. In image 13 there is also a misclassification of stroma region (however all methods fail exactly in this particular region)
+DPB-3 at each level  
 
+UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Input | Series Dilation Input|SD+Residual-UNET
+
+Net |Accuracy Improvement |Accuracy reduction | Reduction over 10%|
+--- | --- | --- |--- |
+UNET Depth-3| | | | 
+UNET Depth-5 | | | |
+UNET DPB-3 at Input | | | | 
+
+SD+Residual-UNET
 
 [1] Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. En N. Navab, J. Hornegger, W. M. Wells, & A. F. Frangi (Eds.), Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234-241). Springer International Publishing. https://doi.org/10.1007/978-3-319-24574-4_28
 
