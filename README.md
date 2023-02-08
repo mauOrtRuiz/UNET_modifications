@@ -58,6 +58,14 @@ b) weak boundaries are better delineated
 c) Is more immune to perturbations!
 d) MultiResUNet is more reliable against outliers
 
+5.- Inception UNET
+The model includes inception blocks at every coder and decoder stages
+
+![image](https://user-images.githubusercontent.com/44585823/217601149-a687c38b-c4fe-42d3-b4b8-8b93f280694a.png)
+It was done on MRI  images. Results indicate improvements over original UNET
+results:
+![image](https://user-images.githubusercontent.com/44585823/217601738-02768b0d-5a08-4984-8628-eeef00c58168.png)
+
 
 
 ## Experimentation
@@ -157,5 +165,7 @@ SD+Residual-UNET
 [4] Khan, R. A., Luo, Y., & Wu, F.-X. (2022). RMS-UNet: Residual multi-scale UNet for liver and lesion segmentation. Artificial Intelligence in Medicine, 124, 102231. https://doi.org/10.1016/j.artmed.2021.102231
 
 [5] Ibtehaz, N., & Rahman, M. S. (2020). MultiResUNet: Rethinking the U-Net architecture for multimodal biomedical image segmentation. Neural Networks, 121, 74-87. https://doi.org/10.1016/j.neunet.2019.08.025
+
+[6]  Urva Latif, Ahmad R. Shahid, Basit Raza, Sheikh Ziauddin, Muazzam A. Khan(2021). An end-to-end brain tumor segmentation system using multi-inception-UNET, Int J Imaging Syst Technol. 2021;31:1803–1816
 
 
