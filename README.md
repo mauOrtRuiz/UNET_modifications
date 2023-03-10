@@ -178,6 +178,16 @@ UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Inpu
 |Inflammatory |0.0021 | 0.0325 | 0.1901 | 0.7729 | 0.0025| 
 |Necrosis | 0.0074 | 0.2280 | 0.1292 | 0.0030 | 0.6323| 
 
+2.- UNET DPB-3 at Input
+
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- |   
+|Other| 0.4263 |  0.0569 | 0.4402 | 0.0425 | 0.0342 | 
+|Tumor| 0.0051 |  0.8064 | 0.1649 | 0.0105 | 0.0130 |
+|Stroma | 0.0217 | 0.1110 | 0.7806 | 0.0660 | 0.0207| 
+|Inflammatory |0.0033 | 0.0184 | 0.1586 | 0.8174 | 0.0023| 
+|Necrosis | 0.0221 | 0.0857 | 0.2323 | 0.0080 | 0.6519| 
+
 
 SD+Residual-UNET
 
