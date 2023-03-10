@@ -167,11 +167,17 @@ DPB-3 at each level
 
 UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Input | Series Dilation Input|SD+Residual-UNET
 
-Net |Accuracy Improvement |Accuracy reduction | Reduction over 10%|
---- | --- | --- |--- |
-UNET Depth-3| | | | 
-UNET Depth-5 | | | |
-UNET DPB-3 at Input | | | | 
+## Confusion Matrix
+1.- UNET depth-3 baseline
+
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- |
+|Other| 0.4007 | 0.0899 | 0.3944 | 0.0388 | 0.0763 | 
+|Tumor| 0.0032 | 0.8860 | 0.0933 | 0.0068 | 0.0107 |
+|Stroma | 0.0145 | 0.1680 | 0.7440 | 0.0500 | 0.0235| 
+|Inflammatory |0.0021 | 0.0325 | 0.1901 | 0.7729 | 0.0025| 
+|Necrosis | 0.0074 | 0.2280 | 0.1292 | 0.0030 | 0.6323| 
+
 
 SD+Residual-UNET
 
