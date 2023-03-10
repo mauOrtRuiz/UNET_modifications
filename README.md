@@ -188,6 +188,45 @@ UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Inpu
 |Inflammatory |0.0033 | 0.0184 | 0.1586 | 0.8174 | 0.0023| 
 |Necrosis | 0.0221 | 0.0857 | 0.2323 | 0.0080 | 0.6519| 
 
+3.- UNET DPB-5 at Input
+
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.4439 | 0.0818 | 0.3410 | 0.0640 | 0.0693 | 
+|Tumor| 0.0062 | 0.8782 | 0.0897 | 0.0109 | 0.0150 |
+|Stroma | 0.0327 | 0.1546 | 0.7152 | 0.0651 | 0.0325| 
+|Inflammatory |0.0061 | 0.0211 | 0.1648 | 0.8036 | 0.0044| 
+|Necrosis | 0.0084 | 0.0814 | 0.1237 | 0.0013 | 0.7852|
+
+4.- DPB-3 at each level
+
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.3612 | 0.1006 | 0.4295 | 0.0599 | 0.0487 | 
+|Tumor| 0.0016 | 0.8487 | 0.1245 | 0.0185 | 0.0066 |
+|Stroma | 0.0105 | 0.1337 | 0.7562 | 0.0847 | 0.0150| 
+|Inflammatory |0.0006 | 0.0079 | 0.1199 | 0.8692 | 0.0024| 
+|Necrosis | 0.0068 | 0.1606 | 0.1109 | 0.0057 | 0.7160|
+
+5.- Residual at Input
+
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.4208 | 0.2315 | 0.2563 | 0.0123 | 0.0791 | 
+|Tumor| 0.0032 | 0.9497 | 0.0381 | 0.0011 | 0.0079 |
+|Stroma | 0.0370 | 0.2925 | 0.6289 | 0.0117 | 0.0298| 
+|Inflammatory |0.0085 | 0.0964 | 0.3366 | 0.5109 | 0.0476| 
+|Necrosis | 0.0143 | 0.3861 | 0.0405 | 0.0003 | 0.5588|
+
+6.- Series Dilation Input
+
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.3205 | 0.1194 | 0.2410 | 0.0245 | 0.2946 | 
+|Tumor| 0.0011 | 0.9125 | 0.0615 | 0.0027 | 0.0221 |
+|Stroma | 0.0113 | 0.2129 | 0.5946 | 0.0217 | 0.1596| 
+|Inflammatory |0.0021 | 0.0480 | 0.3249 | 0.6140 | 0.0110| 
+|Necrosis | 0.0011 | 0.1950 | 0.0242 | 0.0006 | 0.7791|
 
 SD+Residual-UNET
 
