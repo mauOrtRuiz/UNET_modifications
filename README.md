@@ -228,7 +228,40 @@ UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Inpu
 |Inflammatory |0.0021 | 0.0480 | 0.3249 | 0.6140 | 0.0110| 
 |Necrosis | 0.0011 | 0.1950 | 0.0242 | 0.0006 | 0.7791|
 
-SD+Residual-UNET
+7.- SD+Residual-UNET
+
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.4361 |  0.0376 | 0.3930 | 0.0839 | 0.0494 | 
+|Tumor| 0.0069 | 0.7275 | 0.2120 | 0.0390 | 0.0145 |
+|Stroma | 0.0266 | 0.0674 | 0.7682 | 0.1213 | 0.0166| 
+|Inflammatory |0.0015 | 0.0028 | 0.0829 | 0.9105 | 0.0023| 
+|Necrosis | 0.0123 | 0.0472 | 0.2197 | 0.0224 | 0.6983|
+
+
+8.- Atrous size 4 + Dense UNET
+   
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.3888 | 0.1075 | 0.3108 | 0.0188 | 0.1741 | 
+|Tumor| 0.0039 | 0.8753 | 0.0960 | 0.0016 | 0.0232 |
+|Stroma | 0.0229 | 0.1703 | 0.7136 | 0.0151 | 0.0781| 
+|Inflammatory |0.0064 | 0.0230 | 0.4008 | 0.5641 | 0.0058| 
+|Necrosis | 0.0056 | 0.1209 | 0.0478 | 0.0002 | 0.8256|
+
+9.- Atrous size 4 + Residual
+  
+  
+    
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.3990 | 0.1259 | 0.2574 | 0.0164 | 0.2013 | 
+|Tumor| 0.0039 | 0.9068 | 0.0707 | 0.0015 | 0.0170 |
+|Stroma | 0.0389 | 0.2127 | 0.6070 | 0.0148 | 0.1266| 
+|Inflammatory |0.0168 | 0.0354 | 0.3617 | 0.5598 | 0.0262| 
+|Necrosis | 0.0062 | 0.2588 | 0.0165 |  0 | 0.7185|
+
+
 
 [1] Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. En N. Navab, J. Hornegger, W. M. Wells, & A. F. Frangi (Eds.), Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234-241). Springer International Publishing. https://doi.org/10.1007/978-3-319-24574-4_28
 
