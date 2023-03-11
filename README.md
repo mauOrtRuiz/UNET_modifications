@@ -250,8 +250,6 @@ UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Inpu
 |Necrosis | 0.0056 | 0.1209 | 0.0478 | 0.0002 | 0.8256|
 
 9.- Atrous size 4 + Residual
-  
-  
     
 | |Other|Tumor | Stroma| Inflammatory| Necrosis|
 |--- | --- | --- |--- |--- |--- | 
@@ -260,6 +258,18 @@ UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Inpu
 |Stroma | 0.0389 | 0.2127 | 0.6070 | 0.0148 | 0.1266| 
 |Inflammatory |0.0168 | 0.0354 | 0.3617 | 0.5598 | 0.0262| 
 |Necrosis | 0.0062 | 0.2588 | 0.0165 |  0 | 0.7185|
+
+10.- Atrous size 4 + SEMGAP
+          
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.3194 | 0.2990 | 0.3654 | 0.0073 | 0.0088 | 
+|Tumor| 0.0018 | 0.9516 | 0.0441 | 0.0017 | 0.0009 |
+|Stroma | 0.0145 | 0.2970 | 0.6791 | 0.0079 | 0.0014| 
+|Inflammatory |0.0073 | 0.0595 | 0.4813 | 0.4509 | 0.0009| 
+|Necrosis | 0.0142 | 0.3327 | 0.3149 | 0.0050 | 0.3331|
+
+
 
 
 
