@@ -270,7 +270,38 @@ UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Inpu
 |Necrosis | 0.0142 | 0.3327 | 0.3149 | 0.0050 | 0.3331|
 
 
+11.- The next experiment was increasing epochs from 12 to 20
+          
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 00 | 00 | 00 | 00 | 00 | 
+|Tumor| 00 | 00 | 00 | 00 | 00 |
+|Stroma | 00 | 00 | 00 | 00 | 00| 
+|Inflammatory |00 | 00 | 00 | 00 | 00| 
+|Necrosis | 00 | 00 | 00 | 00 | 00|
 
+
+12.- The next experiment is a modification: DPB-3 at each level + Sem Seg with 2 dilatios + Atrous 4 at input parallel     
+       
+    
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.4481 | 0.1162 | 0.2765 | 0.0092 | 0.1500 | 
+|Tumor| 0.0073 | 0.8832 | 0.0900 | 0.0007 | 0.0188 |
+|Stroma | 0.0684 | 0.1772 | 0.6756 | 0.0074 | 0.0713| 
+|Inflammatory |0.0133 | 0.0337 | 0.5176 | 0.4310 | 0.0045| 
+|Necrosis | 0.0189 | 0.1737 | 0.0743 | 0.0000 | 0.7330|
+
+13.- The next experiment is a modification: DPB-3 at each level + Sem Seg with 2 dilatios + DPB3 at input series     
+ 
+    
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.2978 | 0.1909 | 0.2548 | 0.0048 | 0.2516 | 
+|Tumor| 0.0012 | 0.9378 | 0.0391 | 0.0001 | 0.0217 |
+|Stroma | 0.0110 | 0.2210 | 0.5583 | 0.0019 | 0.2077| 
+|Inflammatory |0.0059 | 0.0500 | 0.5727 | 0.3300  | 0.0414| 
+|Necrosis | 0.0013 | 0.1974 | 0.0199 | 0.0000 | 0.7814|
 
 
 [1] Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. En N. Navab, J. Hornegger, W. M. Wells, & A. F. Frangi (Eds.), Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234-241). Springer International Publishing. https://doi.org/10.1007/978-3-319-24574-4_28
