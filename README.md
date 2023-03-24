@@ -281,7 +281,7 @@ UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Inpu
 |Necrosis | 00 | 00 | 00 | 00 | 00|
 
 
-12.- The next experiment is a modification: DPB-3 at each level + Sem Seg with 2 dilatios + Atrous 4 at input parallel     
+12.- The next experiment is a modification: NET V DPB-3 at each level + Sem Seg with 2 dilation + Atrous 4 at input parallel     
        
     
 | |Other|Tumor | Stroma| Inflammatory| Necrosis|
@@ -303,6 +303,25 @@ UNET DPB-3 at Input| UNET DPB-5 at Input | DPB-3 at each level |Residual at Inpu
 |Inflammatory |0.0059 | 0.0500 | 0.5727 | 0.3300  | 0.0414| 
 |Necrosis | 0.0013 | 0.1974 | 0.0199 | 0.0000 | 0.7814|
 
+    
+    
+14.-  This network  (Named Net_PM) Is a Residual UNET with a convolution connection in first encoder
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.6005 | 0.0438 | 0.2646 | 0.0673 | 0.0238 | 
+|Tumor| 0.0175 | 0.7540 | 0.1786 | 0.0281 | 0.0218 |
+|Stroma | 0.0958 | 0.0823 | 0.6651 | 0.1299 | 0.0269| 
+|Inflammatory |0.0405 | 0.0054 | 0.0758 | 0.8757  | 0.0026| 
+|Necrosis | 0.0592 | 0.0660 | 0.1114 | 0.0079 | 0.7555|
+
+15.-  This network  (Named Net_Pd) Is a Residual UNET with a convolution connection in first encoder
+| |Other|Tumor | Stroma| Inflammatory| Necrosis|
+|--- | --- | --- |--- |--- |--- | 
+|Other| 0.2978 | 0.1909 | 0.2548 | 0.0048 | 0.2516 | 
+|Tumor| 0.0012 | 0.9378 | 0.0391 | 0.0001 | 0.0217 |
+|Stroma | 0.0110 | 0.2210 | 0.5583 | 0.0019 | 0.2077| 
+|Inflammatory |0.0059 | 0.0500 | 0.5727 | 0.3300  | 0.0414| 
+|Necrosis | 0.0013 | 0.1974 | 0.0199 | 0.0000 | 0.7814|
 
 [1] Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. En N. Navab, J. Hornegger, W. M. Wells, & A. F. Frangi (Eds.), Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234-241). Springer International Publishing. https://doi.org/10.1007/978-3-319-24574-4_28
 
