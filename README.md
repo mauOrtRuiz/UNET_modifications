@@ -73,6 +73,11 @@ results:
 
 
 
+![10_U_paper](https://user-images.githubusercontent.com/44585823/229661867-e85c30f4-a259-4380-aa81-2a607b0934de.png)
+![5_U_paper](https://user-images.githubusercontent.com/44585823/229661869-231fdd2a-9a23-4202-ae3e-fbadb5039d2c.png)
+![2_U_paper](https://user-images.githubusercontent.com/44585823/229661870-33c3a846-7e6f-449c-9e7f-eb5fefa49a9a.png)
+![15_U_paper](https://user-images.githubusercontent.com/44585823/229661874-5ed5e310-94e4-4803-836f-983041b40efe.png)
+![11_U_paper](https://user-images.githubusercontent.com/44585823/229661875-21f00b90-041d-4157-988f-df21df6366de.png)
 
 
 
